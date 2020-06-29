@@ -82,6 +82,7 @@ static void onInitializeAccessibilityNodeInfoEvent(
 }
 ``` 
 
+{:start="2"}
 2. Setting that event handler on a component:
 
 ```java
