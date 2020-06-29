@@ -25,6 +25,7 @@ import static com.facebook.litho.MountState.shouldUpdateViewInfo;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
+import com.facebook.rendercore.Host;
 import com.facebook.rendercore.RenderUnit;
 import java.util.ArrayList;
 import java.util.List;
@@ -101,6 +102,7 @@ public class LithoRenderUnit extends RenderUnit<Object> {
     @Override
     public void bind(
         final Context context,
+        final Host host,
         final Object content,
         final LithoRenderUnit unit,
         final Object data) {
@@ -111,6 +113,7 @@ public class LithoRenderUnit extends RenderUnit<Object> {
     @Override
     public void unbind(
         final Context context,
+        final Host host,
         final Object content,
         final LithoRenderUnit unit,
         final Object data) {
@@ -132,6 +135,7 @@ public class LithoRenderUnit extends RenderUnit<Object> {
     @Override
     public void bind(
         final Context context,
+        final Host host,
         final Object content,
         final LithoRenderUnit unit,
         final Object data) {
@@ -150,6 +154,7 @@ public class LithoRenderUnit extends RenderUnit<Object> {
     @Override
     public void unbind(
         final Context context,
+        final Host host,
         final Object content,
         final LithoRenderUnit unit,
         final Object data) {
@@ -174,6 +179,7 @@ public class LithoRenderUnit extends RenderUnit<Object> {
     @Override
     public void bind(
         final Context context,
+        final Host host,
         final Object content,
         final LithoRenderUnit unit,
         final Object data) {
@@ -187,6 +193,7 @@ public class LithoRenderUnit extends RenderUnit<Object> {
     @Override
     public void unbind(
         final Context context,
+        final Host host,
         final Object content,
         final LithoRenderUnit unit,
         final Object data) {
