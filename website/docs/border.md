@@ -247,9 +247,7 @@ Row.create(c)
 
 You may compose multiple effects by simply specifying more than one. This effect utilizes [ComposePathEffect](https://developer.android.com/reference/android/graphics/ComposePathEffect.html) internally.
 
-:::warning IMPORTANT
-Currently Litho does not support composing more than two effects.
-:::
+> IMPORTANT: Currently Litho does not support composing more than two effects.
 
 ![Composed Effect](/images/border-composed-effect.png)
 
