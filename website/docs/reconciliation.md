@@ -55,8 +55,7 @@ RecyclerBinderConfiguration.create()
   .isReconciliationEnabled(false)
   .build();
 ```
-
-
+<br />
 ```java
 new RecyclerBinder.Builder()
   .isReconciliationEnabled(true)
